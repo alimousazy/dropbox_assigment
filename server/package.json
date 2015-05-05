@@ -1,0 +1,22 @@
+{
+  "name": "drop_box_clone",
+  "version": "1.0.0",
+  "description": "Drop box clone, which allows user to upload and download files,in addition of exploring directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "nodemon --exec babel-node -- --optional strict --stage 1 -- index.js"
+  },
+  "author": "Ali",
+  "license": "ISC",
+  "devDependencies": {
+    "args": "0.0.3",
+    "command-line-args": "^0.5.9",
+    "express": "^4.12.3",
+    "get-folder-size": "^0.1.1",
+    "mime-types": "^2.0.10",
+    "nssocket": "^0.5.3",
+    "rimraf": "^2.3.3",
+    "songbird": "^1.0.1"
+  }
+}

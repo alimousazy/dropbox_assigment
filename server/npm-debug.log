@@ -1,0 +1,24 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/aalraha/.nvm/versions/io.js/v1.8.1/bin/iojs',
+1 verbose cli   '/Users/aalraha/.nvm/versions/io.js/v1.8.1/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@2.8.3
+3 info using node@v1.8.1
+4 verbose stack Error: missing script: start
+4 verbose stack     at run (/Users/aalraha/.nvm/versions/io.js/v1.8.1/lib/node_modules/npm/lib/run-script.js:165:19)
+4 verbose stack     at /Users/aalraha/.nvm/versions/io.js/v1.8.1/lib/node_modules/npm/lib/run-script.js:81:5
+4 verbose stack     at /Users/aalraha/.nvm/versions/io.js/v1.8.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:345:5
+4 verbose stack     at checkBinReferences_ (/Users/aalraha/.nvm/versions/io.js/v1.8.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:309:45)
+4 verbose stack     at final (/Users/aalraha/.nvm/versions/io.js/v1.8.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:343:3)
+4 verbose stack     at then (/Users/aalraha/.nvm/versions/io.js/v1.8.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:113:5)
+4 verbose stack     at /Users/aalraha/.nvm/versions/io.js/v1.8.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:284:20
+4 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (evalmachine.<anonymous>:305:5)
+5 verbose cwd /Users/aalraha/codepath_assiment/server
+6 error Darwin 13.4.0
+7 error argv "/Users/aalraha/.nvm/versions/io.js/v1.8.1/bin/iojs" "/Users/aalraha/.nvm/versions/io.js/v1.8.1/bin/npm" "start"
+8 error node v1.8.1
+9 error npm  v2.8.3
+10 error missing script: start
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
